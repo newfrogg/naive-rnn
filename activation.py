@@ -19,10 +19,3 @@ class Tanh:
 class ReLu:
     def forward(self, x):
         return np.maximum(x, 0)
-
-
-sigmoid = Sigmoid() 
-
-x = 4
-
-print(sigmoid.forward(x));
