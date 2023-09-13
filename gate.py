@@ -17,12 +17,3 @@ class AddGate:
         dx1 = dz * np.ones_like(x1)
         dx2 = dz * np.ones_like(x2)
         return x1 * x2
-
-
-
-W = np.array([1,2,3,4])
-x = np.array([1,3,3,1])
-
-gate = MultiplyGate()
-
-print(gate.forward(W, x))
